@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monte seu Armored Core</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Monte seu Armored Core</h1>
+
+  <div class="selectors">
+    <label>
+      Cabeça:
+      <select id="headSelect">
+        <option value="head1.png">Cabeça 1</option>
+        <option value="head2.png">Cabeça 2</option>
+        <option value="head3.png">Cabeça 3</option>
+      </select>
+    </label>
+
+    <label>
+      Core:
+      <select id="bodySelect">
+        <option value="body1.png">Core 1</option>
+        <option value="body2.png">Core 2</option>
+        <option value="body3.png">Core 3</option>
+      </select>
+    </label>
+
+    <label>
+      Braços:
+      <select id="armsSelect">
+        <option value="arms1.png">Braços 1</option>
+        <option value="arms2.png">Braços 2</option>
+        <option value="arms3.png">Braços 3</option>
+      </select>
+    </label>
+
+    <label>
+      Pernas:
+      <select id="legsSelect">
+        <option value="legs1.png">Pernas 1</option>
+        <option value="legs2.png">Pernas 2</option>
+        <option value="legs3.png">Pernas 3</option>
+      </select>
+    </label>
+  </div>
+
+   <button id="buildButton">Montar Robô</button>
+
+  <div id="robotContainer" class="robot hidden">
+    <div class="part head"></div>
+    <div class="part arms"></div>
+    <div class="part body"></div>
+    <div class="part legs"></div>
+  </div>
+
+  <div id="robotPreview" class="robot">
+    <div class="part head"></div>
+    <div class="part arms"></div>
+    <div class="part body"></div>
+    <div class="part legs"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
