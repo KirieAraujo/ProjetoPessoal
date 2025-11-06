@@ -4,7 +4,7 @@ body {
   background-image: url('img/garage-bg.jpg');
   background-size: cover;
   background-position: center center;
-   background-attachment: fixed; 
+  background-attachment: fixed; 
   background-color: #101820;
   color: #fff;
 }
@@ -44,7 +44,6 @@ button {
   color: white;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 .robot {
@@ -64,25 +63,25 @@ button {
 }
 
 .head {
-  top: 0;
-  width: 150px;
-  height: 100px;
+  top: 60px;
+  width: 180px;
+  height: 130px;
 }
 
 .arms {
-  top: 90px;
-  width: 250px;
-  height: 100px;
+  top: 190px;
+  width: 350px;
+  height: 130px;
 }
 
 .body {
-  top: 150px;
-  width: 150px;
-  height: 120px;
+  top: 190px;
+  width: 180px;
+  height: 125px;
 }
 
 .legs {
-  bottom: 0;
-  width: 150px;
-  height: 120px;
+  top: 315px;
+  width: 290px;
+  height: 150px;
 }

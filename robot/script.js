@@ -15,6 +15,3 @@ function Montar() {
 document.querySelectorAll('select').forEach(select => {
   select.addEventListener('change', Montar);
 });
-
-// Inicializa com valores padrão
-updateRobot();
