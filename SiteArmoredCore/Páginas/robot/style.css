@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('img/garage-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+  background-color: #101820;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.selectors {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+select {
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  background: #1e2a38;
+  color: white;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #8b2e2e;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.robot {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.part {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.head {
+  top: 60px;
+  width: 180px;
+  height: 130px;
+}
+
+.arms {
+  top: 190px;
+  width: 350px;
+  height: 130px;
+}
+
+.body {
+  top: 190px;
+  width: 180px;
+  height: 125px;
+}
+
+.legs {
+  top: 315px;
+  width: 290px;
+  height: 150px;
+}
